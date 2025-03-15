@@ -635,3 +635,5 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15Mar2025 16:36:48.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
 [15Mar2025 16:41:56.624] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:35121] logged in with entity id 146 at (-0.25505283533236967, -60.0, 8.735744919504288)
 [15Mar2025 16:41:56.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[15Mar2025 16:44:32.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Teleported Yankjo to -28665855.500000, 129.000000, 12290046.500000]
+[15Mar2025 16:45:45.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
