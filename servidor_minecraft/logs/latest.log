@@ -270,3 +270,6 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15Mar2025 18:08:51.592] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628982650000006E7, -58.0, 71.05086437612772] -> [315.0427926033735, -55.89253209321713, 1.2290057650000006E7] returning empty list! this might break things
 [15Mar2025 18:10:28.942] [Server thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Received physics frame update for ship with ShipId: 18, but a ship with this ShipId does not exist!
 [15Mar2025 18:10:54.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[15Mar2025 18:13:37.549] [Server thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Received physics frame update for ship with ShipId: 22, but a ship with this ShipId does not exist!
+[15Mar2025 18:15:48.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo has made the advancement [Big Data]
+[15Mar2025 18:21:10.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]

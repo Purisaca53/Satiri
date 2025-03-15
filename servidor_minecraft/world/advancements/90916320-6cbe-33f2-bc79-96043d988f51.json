@@ -566,6 +566,12 @@
     },
     "done": true
   },
+  "create:display_link": {
+    "criteria": {
+      "0": "2025-03-15 18:15:48 +0000"
+    },
+    "done": true
+  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2025-03-15 18:06:02 +0000"
