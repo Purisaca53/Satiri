@@ -504,3 +504,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15Mar2025 15:04:09.509] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Disconnected
 [15Mar2025 15:04:09.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
 [15Mar2025 15:05:04.160] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4c816803[id=<null>,name=Yankjo,properties={},legacy=false] (/127.168.202.157:38633) lost connection: Disconnected
+[15Mar2025 15:05:26.720] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:56895] logged in with entity id 188 at (-5.640020051349368, -60.0, -4.891979926723126)
+[15Mar2025 15:05:26.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[15Mar2025 15:10:22.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo has made the advancement [Big Data]
+[15Mar2025 15:11:38.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[15Mar2025 15:14:57.210] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Disconnected
+[15Mar2025 15:14:57.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
