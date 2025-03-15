@@ -259,3 +259,14 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15Mar2025 17:57:30.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
 [15Mar2025 17:58:49.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: The difficulty has been set to Peaceful]
 [15Mar2025 18:00:34.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[15Mar2025 18:02:38.969] [Server thread/INFO] [org.valkyrienskies.eureka.util.ShipAssembler/]: Assembled ship with 26 blocks, out of 32768 allowed
+[15Mar2025 18:02:39.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo moved while colliding with unloaded ships!
+[15Mar2025 18:02:41.348] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Disconnected
+[15Mar2025 18:02:41.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
+[15Mar2025 18:03:44.404] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:52519] logged in with entity id 208 at (329.4440396614373, -57.76467473889352, 123.65183734335005)
+[15Mar2025 18:03:44.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[15Mar2025 18:04:27.250] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628983650000006E7, -58.0, 122.2053288705647] -> [330.8027480430901, -55.871218195342166, 1.2290060650000006E7] returning empty list! this might break things
+[15Mar2025 18:04:32.295] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628983650000006E7, -58.0, 131.97462142631412] -> [332.4955527409911, -55.86941001047089, 1.2290060650000006E7] returning empty list! this might break things
+[15Mar2025 18:08:51.592] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8628982650000006E7, -58.0, 71.05086437612772] -> [315.0427926033735, -55.89253209321713, 1.2290057650000006E7] returning empty list! this might break things
+[15Mar2025 18:10:28.942] [Server thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Received physics frame update for ship with ShipId: 18, but a ship with this ShipId does not exist!
+[15Mar2025 18:10:54.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
