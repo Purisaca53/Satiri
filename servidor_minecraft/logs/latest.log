@@ -496,3 +496,11 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15Mar2025 14:51:02.511] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Disconnected
 [15Mar2025 14:51:02.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
 [15Mar2025 14:51:24.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Yankjo a server operator
+[15Mar2025 14:59:46.418] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:37707] logged in with entity id 114 at (4.424324386814002, -60.0, -1.4769465115133258)
+[15Mar2025 14:59:46.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[15Mar2025 15:00:32.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set own game mode to Creative Mode]
+[15Mar2025 15:00:42.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: The difficulty has been set to Peaceful]
+[15Mar2025 15:00:47.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[15Mar2025 15:04:09.509] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Disconnected
+[15Mar2025 15:04:09.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
+[15Mar2025 15:05:04.160] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4c816803[id=<null>,name=Yankjo,properties={},legacy=false] (/127.168.202.157:38633) lost connection: Disconnected
