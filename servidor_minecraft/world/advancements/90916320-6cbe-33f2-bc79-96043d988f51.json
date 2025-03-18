@@ -626,9 +626,21 @@
     },
     "done": true
   },
+  "copycats:recipes/crafting/copycat_vertical_stairs_from_conversion": {
+    "criteria": {
+      "has_item": "2025-03-18 01:32:03 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/oak_drawers": {
     "criteria": {
       "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "copycats:recipes/crafting/copycat_block_from_slabs": {
+    "criteria": {
+      "has_item": "2025-03-18 01:32:33 +0000"
     },
     "done": true
   },
