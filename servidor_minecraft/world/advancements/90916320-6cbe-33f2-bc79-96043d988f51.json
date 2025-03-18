@@ -566,17 +566,125 @@
     },
     "done": true
   },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2025-03-15 18:06:02 +0000"
+    },
+    "done": false
+  },
   "create:display_link": {
     "criteria": {
       "0": "2025-03-15 18:15:48 +0000"
     },
     "done": true
   },
-  "create:wrench_goggles": {
+  "storagedrawers:recipes/storagedrawers/compacting_drawers": {
     "criteria": {
-      "0": "2025-03-15 18:06:02 +0000"
+      "has_chest": "2025-03-18 01:16:08 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/acacia_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/dark_oak_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/autocannon_ammo_container": {
+    "criteria": {
+      "has_autocannon_cartridge": "2025-03-18 01:16:01 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/cherry_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/bamboo_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/warped_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/upgrade_template": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:16:08 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/oak_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_mount_extension": {
+    "criteria": {
+      "has_cannon_mount": "2025-03-18 01:15:47 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/jungle_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/detached_drawer": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:16:08 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/mangrove_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/birch_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/controller": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:16:08 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/crimson_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/spruce_drawers": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/controller_slave": {
+    "criteria": {
+      "has_chest": "2025-03-18 01:16:08 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
