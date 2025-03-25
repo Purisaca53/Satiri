@@ -1,0 +1,2 @@
+local radar = peripheral.find("create_radar") local redstoneSide = "back" -- Lado donde está conectado el cañónif not radar then    print("Error: No se encontró el radar.")    returnendprint("Sistema de defensa activado.")while true do    local targets = radar.scan() -- Escanea el radar    forrue) -- Activa el cañón            sleep(0.2)            redstone.setOutput(redstoneSide, false) -- Desactiva el cañón            sleep(1) -- Espera antes de volver a escanear        end    end    sleep(0.5) -- Intervalo de escaneoend
+

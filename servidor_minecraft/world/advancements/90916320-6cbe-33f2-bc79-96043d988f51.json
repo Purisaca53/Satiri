@@ -1136,9 +1136,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-25 06:41:28 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/autocannon_ammo_container": {
+    "criteria": {
+      "has_autocannon_cartridge": "2025-03-25 06:35:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-03-25 06:15:06 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_mount_extension": {
+    "criteria": {
+      "has_cannon_mount": "2025-03-25 06:34:13 +0000"
     },
     "done": true
   },
@@ -1147,6 +1165,24 @@
       "has_white_wool": "2025-03-25 06:15:06 +0000"
     },
     "done": true
+  },
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
+    "criteria": {
+      "has_lever": "2025-03-25 06:35:19 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced/computercraft/wireless_modem_normal": {
+    "criteria": {
+      "has_items": "2025-03-25 06:36:26 +0000"
+    },
+    "done": true
+  },
+  "advancedperipherals:base_toolkit": {
+    "criteria": {
+      "redstone_integrator_in_inventory": "2025-03-25 06:38:23 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
