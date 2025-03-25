@@ -8698,3 +8698,12 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [25Mar2025 00:00:19.375] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791615 : 768127
 [25Mar2025 00:00:19.375] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791616 : 768126
 [25Mar2025 00:00:19.376] [Server thread/DEBUG] [org.valkyrienskies.core.impl.shadow.zV/]: 4f34f218-e068-42b6-ad0a-5d12bebbddda watched ships: [4]
+[25Mar2025 00:01:26.238] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 00:01:26.266] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Mar2025 00:02:33.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[25Mar2025 00:02:37.870] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Unwatch task for dimension minecraft:dimension:minecraft:overworld: -1791615 : 768127
+[25Mar2025 00:02:37.872] [Server thread/DEBUG] [org.valkyrienskies.core.impl.shadow.zV/]: 4f34f218-e068-42b6-ad0a-5d12bebbddda unwatched ships [4]
+[25Mar2025 00:02:59.317] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Disconnected
+[25Mar2025 00:02:59.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
+[25Mar2025 00:06:26.221] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 00:06:26.244] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
