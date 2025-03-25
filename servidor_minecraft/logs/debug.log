@@ -8891,3 +8891,62 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [25Mar2025 00:20:27.992] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791872 : 768127
 [25Mar2025 00:20:27.992] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791873 : 768128
 [25Mar2025 00:20:27.994] [Server thread/DEBUG] [org.valkyrienskies.core.impl.shadow.zV/]: d677171d-5f34-427c-aaa6-8c775808d4cd watched ships: [3]
+[25Mar2025 00:21:19.797] [Netty Epoll Server IO #5/DEBUG] [org.valkyrienskies.core.impl.networking.NetworkChannel/]: Server received packet of type: PacketType(channel=org.valkyrienskies.core.impl.networking.NetworkChannel@59c813f9, id=1, name=SimplePacket - class org.valkyrienskies.core.impl.networking.impl.PacketRequestUdp)
+[25Mar2025 00:21:26.270] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 00:21:26.304] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Mar2025 00:23:33.675] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.refuel.
+[25Mar2025 00:23:33.676] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.getFuelLevel.
+[25Mar2025 00:23:33.676] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.getFuelLimit.
+[25Mar2025 00:23:33.676] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.getItemDetail.
+[25Mar2025 00:23:33.677] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.turnLeft.
+[25Mar2025 00:23:33.677] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.turnRight.
+[25Mar2025 00:23:33.677] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.digUp.
+[25Mar2025 00:23:33.680] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.digDown.
+[25Mar2025 00:23:33.680] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.placeUp.
+[25Mar2025 00:23:33.680] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.placeDown.
+[25Mar2025 00:23:33.681] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.dropUp.
+[25Mar2025 00:23:33.681] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.dropDown.
+[25Mar2025 00:23:33.681] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.getItemSpace.
+[25Mar2025 00:23:33.681] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.detectUp.
+[25Mar2025 00:23:33.682] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.detectDown.
+[25Mar2025 00:23:33.682] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.compareUp.
+[25Mar2025 00:23:33.682] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.compareDown.
+[25Mar2025 00:23:33.682] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.attackUp.
+[25Mar2025 00:23:33.683] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.attackDown.
+[25Mar2025 00:23:33.683] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.suck.
+[25Mar2025 00:23:33.683] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.suckUp.
+[25Mar2025 00:23:33.686] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.suckDown.
+[25Mar2025 00:23:33.686] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.equipLeft.
+[25Mar2025 00:23:33.686] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.equipRight.
+[25Mar2025 00:23:33.687] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.inspect.
+[25Mar2025 00:23:33.687] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.inspectUp.
+[25Mar2025 00:23:33.687] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.inspectDown.
+[25Mar2025 00:23:33.687] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.place.
+[25Mar2025 00:23:33.687] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.compareTo.
+[25Mar2025 00:23:33.687] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.compare.
+[25Mar2025 00:23:33.687] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.transferTo.
+[25Mar2025 00:23:33.688] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.back.
+[25Mar2025 00:23:33.688] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.drop.
+[25Mar2025 00:23:33.688] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.up.
+[25Mar2025 00:23:33.688] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.dig.
+[25Mar2025 00:23:33.688] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.down.
+[25Mar2025 00:23:33.688] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.getItemCount.
+[25Mar2025 00:23:33.689] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.forward.
+[25Mar2025 00:23:33.689] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.select.
+[25Mar2025 00:23:33.689] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.detect.
+[25Mar2025 00:23:33.690] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.attack.
+[25Mar2025 00:23:33.690] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.turtle.apis.TurtleAPI.getSelectedSlot.
+[25Mar2025 00:26:17.286] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for de.srendi.advancedperipherals.lib.peripherals.BasePeripheral.getName.
+[25Mar2025 00:26:17.288] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for de.srendi.advancedperipherals.lib.peripherals.BasePeripheral.getConfiguration.
+[25Mar2025 00:26:17.289] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for de.srendi.advancedperipherals.common.addons.computercraft.owner.FuelAbility.getFuelLevel.
+[25Mar2025 00:26:17.290] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for de.srendi.advancedperipherals.common.addons.computercraft.owner.FuelAbility.getMaxFuelLevel.
+[25Mar2025 00:26:17.290] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for de.srendi.advancedperipherals.common.addons.computercraft.owner.FuelAbility.getFuelConsumptionRate.
+[25Mar2025 00:26:17.290] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for de.srendi.advancedperipherals.common.addons.computercraft.owner.FuelAbility.setFuelConsumptionRate.
+[25Mar2025 00:26:26.244] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 00:26:26.279] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Mar2025 00:27:34.280] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.isWireless.
+[25Mar2025 00:27:34.281] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.transmit.
+[25Mar2025 00:27:34.282] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.isOpen.
+[25Mar2025 00:27:34.282] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.close.
+[25Mar2025 00:27:34.283] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.open.
+[25Mar2025 00:27:34.283] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.closeAll.
