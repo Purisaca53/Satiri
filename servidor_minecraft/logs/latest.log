@@ -817,3 +817,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Mar2025 23:49:20.765] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
 [24Mar2025 23:49:54.816] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:54051] logged in with entity id 1 at (2.5, -60.0, -1.5)
 [24Mar2025 23:49:54.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[24Mar2025 23:51:03.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set own game mode to Creative Mode]
+[24Mar2025 23:51:13.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: The difficulty has been set to Peaceful]
+[24Mar2025 23:52:28.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[24Mar2025 23:58:10.673] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669941625E7, -59.17499999701977, -9.800007348880172] -> [12.799975581467152, -56.69999961798272, 1.2290056625E7] returning empty list! this might break things
+[24Mar2025 23:58:15.718] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669941625E7, -59.17499999701977, -9.800008825957775] -> [12.799975510686636, -56.699999617982705, 1.2290056625E7] returning empty list! this might break things

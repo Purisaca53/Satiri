@@ -8548,3 +8548,153 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Mar2025 23:49:55.209] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0xb5c20ab0e3373a7f
 [24Mar2025 23:50:06.777] [Server thread/DEBUG] [mixin/]: Mixing feature.ai.node_evaluator.PathNavigationRegionAccessor from valkyrienskies-common.mixins.json into net.minecraft.world.level.PathNavigationRegion
 [24Mar2025 23:50:06.799] [Server thread/DEBUG] [mixin/]: Mixing accessors.world.level.pathfinder.PathAccessor from valkyrienskies-common.mixins.json into net.minecraft.world.level.pathfinder.Path
+[24Mar2025 23:50:49.053] [Netty Epoll Server IO #5/DEBUG] [org.valkyrienskies.core.impl.networking.NetworkChannel/]: Server received packet of type: PacketType(channel=org.valkyrienskies.core.impl.networking.NetworkChannel@59c813f9, id=1, name=SimplePacket - class org.valkyrienskies.core.impl.networking.impl.PacketRequestUdp)
+[24Mar2025 23:51:03.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set own game mode to Creative Mode]
+[24Mar2025 23:51:13.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: The difficulty has been set to Peaceful]
+[24Mar2025 23:51:26.235] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[24Mar2025 23:51:26.260] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[24Mar2025 23:51:44.801] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.speaker.SpeakerPeripheral.playSound.
+[24Mar2025 23:51:44.814] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.speaker.SpeakerPeripheral.playNote.
+[24Mar2025 23:51:44.814] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.speaker.SpeakerPeripheral.playAudio.
+[24Mar2025 23:51:44.816] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.speaker.SpeakerPeripheral.stop.
+[24Mar2025 23:51:44.816] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.getItemDetail
+[24Mar2025 23:51:44.816] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.getItemLimit
+[24Mar2025 23:51:44.816] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.pushItems
+[24Mar2025 23:51:44.816] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.pullItems
+[24Mar2025 23:51:44.816] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.size
+[24Mar2025 23:51:44.816] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.list
+[24Mar2025 23:51:44.817] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.pushFluid
+[24Mar2025 23:51:44.817] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.pullFluid
+[24Mar2025 23:51:44.817] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.tanks
+[24Mar2025 23:51:44.817] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.EnergyMethods.getEnergyCapacity
+[24Mar2025 23:51:44.817] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.EnergyMethods.getEnergy
+[24Mar2025 23:51:46.214] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermAPI.nativePaletteColour.
+[24Mar2025 23:51:46.216] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.setTextColour.
+[24Mar2025 23:51:46.216] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.setCursorPos.
+[24Mar2025 23:51:46.217] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.getIsColour.
+[24Mar2025 23:51:46.217] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.setPaletteColour.
+[24Mar2025 23:51:46.218] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.getPaletteColour.
+[24Mar2025 23:51:46.218] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.clear.
+[24Mar2025 23:51:46.218] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.write.
+[24Mar2025 23:51:46.219] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.getSize.
+[24Mar2025 23:51:46.219] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.setCursorBlink.
+[24Mar2025 23:51:46.219] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.setBackgroundColour.
+[24Mar2025 23:51:46.220] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.getCursorBlink.
+[24Mar2025 23:51:46.220] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.getTextColour.
+[24Mar2025 23:51:46.220] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.getBackgroundColour.
+[24Mar2025 23:51:46.220] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.blit.
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.scroll.
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.clearLine.
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.TermMethods.getCursorPos.
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.getItemDetail
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.getItemLimit
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.pushItems
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.pullItems
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.size
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.list
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.pushFluid
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.pullFluid
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.tanks
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.EnergyMethods.getEnergyCapacity
+[24Mar2025 23:51:46.221] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.EnergyMethods.getEnergy
+[24Mar2025 23:51:46.222] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.getOutput.
+[24Mar2025 23:51:46.223] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.getSides.
+[24Mar2025 23:51:46.223] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.testBundledInput.
+[24Mar2025 23:51:46.224] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.setBundledOutput.
+[24Mar2025 23:51:46.225] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.getBundledOutput.
+[24Mar2025 23:51:46.225] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.getBundledInput.
+[24Mar2025 23:51:46.225] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.getInput.
+[24Mar2025 23:51:46.225] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.setOutput.
+[24Mar2025 23:51:46.225] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.setAnalogOutput.
+[24Mar2025 23:51:46.226] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.getAnalogOutput.
+[24Mar2025 23:51:46.226] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.RedstoneAPI.getAnalogInput.
+[24Mar2025 23:51:46.226] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.getDir.
+[24Mar2025 23:51:46.227] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.makeDir.
+[24Mar2025 23:51:46.227] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.getDrive.
+[24Mar2025 23:51:46.227] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.getName.
+[24Mar2025 23:51:46.227] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.list.
+[24Mar2025 23:51:46.227] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.delete.
+[24Mar2025 23:51:46.227] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.combine.
+[24Mar2025 23:51:46.228] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.open.
+[24Mar2025 23:51:46.228] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.copy.
+[24Mar2025 23:51:46.229] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.getSize.
+[24Mar2025 23:51:46.230] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.isReadOnly.
+[24Mar2025 23:51:46.230] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.exists.
+[24Mar2025 23:51:46.231] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.getFreeSpace.
+[24Mar2025 23:51:46.231] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.attributes.
+[24Mar2025 23:51:46.231] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.move.
+[24Mar2025 23:51:46.231] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.getCapacity.
+[24Mar2025 23:51:46.231] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.FSAPI.isDir.
+[24Mar2025 23:51:46.232] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.PeripheralAPI.getMethods.
+[24Mar2025 23:51:46.232] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.PeripheralAPI.isPresent.
+[24Mar2025 23:51:46.232] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.PeripheralAPI.getType.
+[24Mar2025 23:51:46.233] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.PeripheralAPI.call.
+[24Mar2025 23:51:46.233] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.PeripheralAPI.hasType.
+[24Mar2025 23:51:46.233] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.getComputerID.
+[24Mar2025 23:51:46.234] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.cancelTimer.
+[24Mar2025 23:51:46.234] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.queueEvent.
+[24Mar2025 23:51:46.234] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.startTimer.
+[24Mar2025 23:51:46.235] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.setAlarm.
+[24Mar2025 23:51:46.235] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.cancelAlarm.
+[24Mar2025 23:51:46.237] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.doShutdown.
+[24Mar2025 23:51:46.237] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.doReboot.
+[24Mar2025 23:51:46.237] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.getComputerLabel.
+[24Mar2025 23:51:46.237] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.setComputerLabel.
+[24Mar2025 23:51:46.237] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.clock.
+[24Mar2025 23:51:46.238] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.date.
+[24Mar2025 23:51:46.238] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.epoch.
+[24Mar2025 23:51:46.238] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.time.
+[24Mar2025 23:51:46.238] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.OSAPI.day.
+[24Mar2025 23:51:46.239] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.HTTPAPI.websocket.
+[24Mar2025 23:51:46.239] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.HTTPAPI.request.
+[24Mar2025 23:51:46.239] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.HTTPAPI.checkURL.
+[24Mar2025 23:51:46.239] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.pocket.apis.PocketAPI.equipBack.
+[24Mar2025 23:51:46.240] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.pocket.apis.PocketAPI.unequipBack.
+[24Mar2025 23:51:46.290] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.ReadHandle.readAll.
+[24Mar2025 23:51:46.291] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.ReadHandle.read.
+[24Mar2025 23:51:46.291] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.ReadHandle.readLine.
+[24Mar2025 23:51:46.291] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.ReadHandle.seek.
+[24Mar2025 23:51:46.292] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.AbstractHandle.close.
+[24Mar2025 23:52:28.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[24Mar2025 23:53:46.856] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791872 : 768128
+[24Mar2025 23:53:46.857] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791872 : 768127
+[24Mar2025 23:53:46.857] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791871 : 768128
+[24Mar2025 23:53:46.857] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791873 : 768128
+[24Mar2025 23:53:46.857] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791872 : 768129
+[24Mar2025 23:53:46.859] [Server thread/DEBUG] [org.valkyrienskies.core.impl.shadow.zV/]: 4f34f218-e068-42b6-ad0a-5d12bebbddda watched ships: [3]
+[24Mar2025 23:54:35.868] [Server thread/DEBUG] [mixin/]: Mixing chaincogwheel.RotationPropagatorMixin from create_connected.mixins.json into com.simibubi.create.content.kinetics.RotationPropagator
+[24Mar2025 23:54:35.868] [Server thread/DEBUG] [mixin/]: create_connected.mixins.json:chaincogwheel.RotationPropagatorMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[24Mar2025 23:54:35.870] [Server thread/DEBUG] [mixin/]: Mixing compat.create.rotation_propagation.RotationPropagatorMixin from createbigcannons-common.mixins.json into com.simibubi.create.content.kinetics.RotationPropagator
+[24Mar2025 23:54:35.871] [Server thread/DEBUG] [mixin/]: Mixing content.universal_joint.MixinRotationPropagator from vs_clockwork-common.mixins.json into com.simibubi.create.content.kinetics.RotationPropagator
+[24Mar2025 23:54:35.872] [Server thread/DEBUG] [mixin/]: Mixing MixinRotationPropagator from trackwork.mixins.json into com.simibubi.create.content.kinetics.RotationPropagator
+[24Mar2025 23:56:26.251] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[24Mar2025 23:56:26.278] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[24Mar2025 23:58:10.673] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669941625E7, -59.17499999701977, -9.800007348880172] -> [12.799975581467152, -56.69999961798272, 1.2290056625E7] returning empty list! this might break things
+[24Mar2025 23:58:15.718] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8669941625E7, -59.17499999701977, -9.800008825957775] -> [12.799975510686636, -56.699999617982705, 1.2290056625E7] returning empty list! this might break things
+[24Mar2025 23:58:52.266] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getMomentOfInertiaTensor.
+[24Mar2025 23:58:52.266] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getMass.
+[24Mar2025 23:58:52.266] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getMomentOfInertiaTensorToSave.
+[24Mar2025 23:58:52.266] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getQuaternion.
+[24Mar2025 23:58:52.266] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getShipyardPosition.
+[24Mar2025 23:58:52.267] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getTransformationMatrix.
+[24Mar2025 23:58:52.267] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getWorldspacePosition.
+[24Mar2025 23:58:52.267] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.transformPositionToWorld.
+[24Mar2025 23:58:52.269] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getName.
+[24Mar2025 23:58:52.269] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.isStatic.
+[24Mar2025 23:58:52.269] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.setName.
+[24Mar2025 23:58:52.269] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getId.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getSize.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getConstraints.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getEulerAnglesXYZ.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getEulerAnglesZYX.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getEulerAnglesZXY.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getEulerAnglesYXZ.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getScale.
+[24Mar2025 23:58:52.270] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getVelocity.
+[24Mar2025 23:58:52.272] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for io.github.techtastic.cc_vs.apis.ShipAPI.getOmega.
+[25Mar2025 00:00:19.375] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791616 : 768128
+[25Mar2025 00:00:19.375] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791616 : 768127
+[25Mar2025 00:00:19.375] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791617 : 768127
+[25Mar2025 00:00:19.375] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791615 : 768127
+[25Mar2025 00:00:19.375] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Watch task for dimension minecraft:dimension:minecraft:overworld: -1791616 : 768126
+[25Mar2025 00:00:19.376] [Server thread/DEBUG] [org.valkyrienskies.core.impl.shadow.zV/]: 4f34f218-e068-42b6-ad0a-5d12bebbddda watched ships: [4]
