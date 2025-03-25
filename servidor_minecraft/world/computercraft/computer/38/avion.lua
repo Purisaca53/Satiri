@@ -1,0 +1,2 @@
+local ship = peripheral.find("vs_ship") -- Encuentra la naveif not ship then    print("No se encontró la nave.")    returnendprint("Avión listo para volar.")while true do    local event, key = os.pullEvent("key")    if key == keys.w then        ship.setThrottle(1.0) -- Acelerar    elseif key == keys.s then        ship.setThrottle(-0.5) -- Frenar    elsei Subir    elseif key == keys.leftShift then        ship.setPitch(-1.0) -- Bajar    else        ship.setThrottle(0)        ship.setYaw(0)        ship.setPitch(0)    endend
+

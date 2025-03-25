@@ -1154,5 +1154,11 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/pocket_advanced/computercraft/wireless_modem_normal": {
+    "criteria": {
+      "has_items": "2025-03-25 06:31:19 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

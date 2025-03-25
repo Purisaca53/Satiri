@@ -7931,3 +7931,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [25Mar2025 06:25:11.446] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.close.
 [25Mar2025 06:25:11.447] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.open.
 [25Mar2025 06:25:11.447] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.closeAll.
+[25Mar2025 06:27:01.151] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 06:27:01.176] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Mar2025 06:28:39.814] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.WriteHandle$Seekable.seek.
+[25Mar2025 06:28:39.815] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.WriteHandle.writeLine.
+[25Mar2025 06:28:39.815] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.WriteHandle.flush.
+[25Mar2025 06:28:39.815] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.WriteHandle.write.
+[25Mar2025 06:30:42.441] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8657665625E7, -59.49999874618348, 9.005490676499903] -> [5.750099040567875, 128.17499999701977, 1.2290048625E7] returning empty list! this might break things
+[25Mar2025 06:30:47.491] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8657665625E7, -59.49999874618587, 9.005492466501892] -> [5.750098861753941, 128.17499999701977, 1.2290048625E7] returning empty list! this might break things
+[25Mar2025 06:31:20.787] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.pocket.apis.PocketAPI.unequipBack.
+[25Mar2025 06:31:20.788] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.pocket.apis.PocketAPI.equipBack.
+[25Mar2025 06:32:01.152] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 06:32:01.178] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Mar2025 06:34:28.746] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Unwatch task for dimension minecraft:dimension:minecraft:overworld: -1791104 : 768127
+[25Mar2025 06:34:28.746] [Server thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Received physics frame update for ship with ShipId: 12, but a ship with this ShipId does not exist!
+[25Mar2025 06:34:28.747] [Server thread/DEBUG] [org.valkyrienskies.core.impl.shadow.zV/]: d1b4e556-456c-4d03-b9d9-4fbcc77fa5f0 unwatched ships [12]
+[25Mar2025 06:35:27.539] [Server thread/DEBUG] [mixin/]: Mixing itemsilo.MountedStorageMixin from create_connected.mixins.json into com.simibubi.create.content.contraptions.MountedStorage
+[25Mar2025 06:35:27.539] [Server thread/DEBUG] [mixin/]: create_connected.mixins.json:itemsilo.MountedStorageMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
