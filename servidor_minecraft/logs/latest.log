@@ -3,3 +3,5 @@
 [25Mar2025 00:02:59.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
 [25Mar2025 00:20:27.895] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:55231] logged in with entity id 152 at (17.256815004975934, -54.263190672199364, -2.806262907642509)
 [25Mar2025 00:20:27.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[25Mar2025 00:31:03.372] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Disconnected
+[25Mar2025 00:31:03.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game

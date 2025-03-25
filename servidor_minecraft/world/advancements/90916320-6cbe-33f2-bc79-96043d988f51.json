@@ -1022,6 +1022,12 @@
     },
     "done": true
   },
+  "computercraft:recipes/decorations/skull_cloudy": {
+    "criteria": {
+      "has_monitor": "2025-03-25 00:26:36 +0000"
+    },
+    "done": true
+  },
   "computercraft:recipes/redstone/disk_8": {
     "criteria": {
       "has_drive": "2025-03-25 00:25:51 +0000"
@@ -1121,6 +1127,12 @@
   "computercraft:recipes/redstone/disk_15": {
     "criteria": {
       "has_drive": "2025-03-25 00:25:51 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced/computercraft/speaker": {
+    "criteria": {
+      "has_items": "2025-03-25 00:26:49 +0000"
     },
     "done": true
   },
