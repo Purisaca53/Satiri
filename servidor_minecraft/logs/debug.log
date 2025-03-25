@@ -7905,3 +7905,29 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [25Mar2025 06:15:48.538] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.ReadHandle.readLine.
 [25Mar2025 06:15:48.538] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.ReadHandle.seek.
 [25Mar2025 06:15:48.538] [ComputerCraft-Computer-Worker-0/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.core.apis.handles.AbstractHandle.close.
+[25Mar2025 06:17:01.154] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 06:17:01.179] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Mar2025 06:22:01.155] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Mar2025 06:22:01.179] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Mar2025 06:24:54.890] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Unwatch task for dimension minecraft:dimension:minecraft:overworld: -1791360 : 768126
+[25Mar2025 06:24:55.291] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Unwatch task for dimension minecraft:dimension:minecraft:overworld: -1791360 : 768127
+[25Mar2025 06:24:55.690] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Unwatch task for dimension minecraft:dimension:minecraft:overworld: -1791360 : 768128
+[25Mar2025 06:24:55.741] [Server thread/DEBUG] [org.valkyrienskies.mod.common.world.ChunkManagement/]: Unwatch task for dimension minecraft:dimension:minecraft:overworld: -1791360 : 768129
+[25Mar2025 06:24:57.942] [Server thread/DEBUG] [mixin/]: Mixing mod_compat.create.accessors.Matrix3dAccessor from valkyrienskies-common.mixins.json into com.simibubi.create.foundation.collision.Matrix3d
+[25Mar2025 06:25:08.005] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.getItemDetail
+[25Mar2025 06:25:08.005] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.getItemLimit
+[25Mar2025 06:25:08.005] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.pushItems
+[25Mar2025 06:25:08.005] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.pullItems
+[25Mar2025 06:25:08.005] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.size
+[25Mar2025 06:25:08.005] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.InventoryMethods.list
+[25Mar2025 06:25:08.005] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.tanks
+[25Mar2025 06:25:08.006] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.pushFluid
+[25Mar2025 06:25:08.006] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.FluidMethods.pullFluid
+[25Mar2025 06:25:08.006] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.EnergyMethods.getEnergy
+[25Mar2025 06:25:08.006] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Skipping bridge Lua Method dan200.computercraft.shared.peripheral.generic.methods.EnergyMethods.getEnergyCapacity
+[25Mar2025 06:25:11.444] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.isWireless.
+[25Mar2025 06:25:11.445] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.transmit.
+[25Mar2025 06:25:11.446] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.isOpen.
+[25Mar2025 06:25:11.446] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.close.
+[25Mar2025 06:25:11.447] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.open.
+[25Mar2025 06:25:11.447] [Server thread/DEBUG] [dan200.computercraft.core.asm.Generator/]: Generating method wrapper for dan200.computercraft.shared.peripheral.modem.ModemPeripheral.closeAll.
