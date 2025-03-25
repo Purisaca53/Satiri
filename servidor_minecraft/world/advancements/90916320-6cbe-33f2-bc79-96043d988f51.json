@@ -992,15 +992,21 @@
     },
     "done": true
   },
-  "computercraft:recipes/redstone/pocket_advanced/computercraft/wireless_modem_advanced": {
-    "criteria": {
-      "has_items": "2025-03-25 00:22:40 +0000"
-    },
-    "done": true
-  },
   "computercraft:recipes/redstone/turtle_advanced": {
     "criteria": {
       "has_computer": "2025-03-25 00:22:28 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal": {
+    "criteria": {
+      "has_computer": "2025-03-25 00:22:28 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_advanced/computercraft/wireless_modem_advanced": {
+    "criteria": {
+      "has_items": "2025-03-25 00:22:40 +0000"
     },
     "done": true
   },
@@ -1016,15 +1022,9 @@
     },
     "done": true
   },
-  "computercraft:recipes/redstone/turtle_normal": {
+  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_trans_overlay": {
     "criteria": {
-      "has_computer": "2025-03-25 00:22:28 +0000"
-    },
-    "done": true
-  },
-  "computercraft:recipes/decorations/skull_cloudy": {
-    "criteria": {
-      "has_monitor": "2025-03-25 00:26:36 +0000"
+      "has_turtle": "2025-03-25 00:23:32 +0000"
     },
     "done": true
   },
@@ -1082,12 +1082,6 @@
     },
     "done": true
   },
-  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_trans_overlay": {
-    "criteria": {
-      "has_turtle": "2025-03-25 00:23:32 +0000"
-    },
-    "done": true
-  },
   "computercraft:recipes/redstone/disk_12": {
     "criteria": {
       "has_drive": "2025-03-25 00:25:51 +0000"
@@ -1127,6 +1121,12 @@
   "computercraft:recipes/redstone/disk_15": {
     "criteria": {
       "has_drive": "2025-03-25 00:25:51 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/decorations/skull_cloudy": {
+    "criteria": {
+      "has_monitor": "2025-03-25 00:26:36 +0000"
     },
     "done": true
   },

@@ -1,29 +1,29 @@
-[25Mar2025 00:53:28.465] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[25Mar2025 00:53:28.469] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[25Mar2025 00:53:32.234] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[25Mar2025 00:53:32.419] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Satiri/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[25Mar2025 00:53:32.978] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[25Mar2025 00:53:32.983] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25Mar2025 00:53:32.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25Mar2025 00:53:32.986] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25Mar2025 00:53:33.878] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/Satiri/servidor_minecraft/mods/architectury-9.2.14-forge.jar
-[25Mar2025 00:53:33.878] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 35 dependencies adding them to mods collection
-[25Mar2025 00:53:36.903] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Mar2025 00:53:37.054] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[25Mar2025 00:53:37.320] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Mar2025 00:53:37.328] [main/WARN] [mixin/]: Reference map 'mixins.trackwork.refmap.json' for trackwork.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Mar2025 00:53:37.332] [main/WARN] [mixin/]: Reference map 'cc_vs-forge-refmap.json' for cc_vs.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Mar2025 00:53:38.132] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[25Mar2025 00:53:38.547] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER
-[25Mar2025 00:53:38.548] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
-[25Mar2025 00:53:38.549] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor
-[25Mar2025 00:53:39.306] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
-[25Mar2025 00:53:39.340] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
-[25Mar2025 00:53:39.343] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
-[25Mar2025 00:53:39.345] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
-[25Mar2025 00:53:39.348] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
-[25Mar2025 00:53:39.350] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
-[25Mar2025 00:53:39.747] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+[25Mar2025 06:06:05.600] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Mar2025 06:06:05.604] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[25Mar2025 06:06:07.300] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Mar2025 06:06:07.377] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Satiri/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Mar2025 06:06:07.681] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Mar2025 06:06:07.685] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Mar2025 06:06:07.686] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Mar2025 06:06:07.688] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Satiri/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Mar2025 06:06:08.478] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/Satiri/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+[25Mar2025 06:06:08.478] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 35 dependencies adding them to mods collection
+[25Mar2025 06:06:11.654] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Mar2025 06:06:11.784] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Mar2025 06:06:12.013] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Mar2025 06:06:12.021] [main/WARN] [mixin/]: Reference map 'mixins.trackwork.refmap.json' for trackwork.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Mar2025 06:06:12.026] [main/WARN] [mixin/]: Reference map 'cc_vs-forge-refmap.json' for cc_vs.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Mar2025 06:06:12.919] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[25Mar2025 06:06:12.998] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER
+[25Mar2025 06:06:12.999] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
+[25Mar2025 06:06:13.000] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor
+[25Mar2025 06:06:13.768] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[25Mar2025 06:06:13.797] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[25Mar2025 06:06:13.802] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[25Mar2025 06:06:13.807] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[25Mar2025 06:06:13.809] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[25Mar2025 06:06:13.811] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[25Mar2025 06:06:14.087] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
@@ -61,107 +61,107 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinExceptio
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[25Mar2025 00:53:39.827] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[25Mar2025 00:53:49.293] [modloading-worker-0/INFO] [Advanced Peripherals/]: AdvancedPeripherals says hello!
-[25Mar2025 00:53:49.313] [modloading-worker-0/INFO] [paucal/]: Hello PAUCAL! This is FORGE!
-[25Mar2025 00:53:49.702] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.6 initializing! Create version: 0.5.1h on platform: Forge
-[25Mar2025 00:53:49.719] [modloading-worker-0/INFO] [Advanced Peripherals/]: powah not loaded, skip integration loading
-[25Mar2025 00:53:49.720] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for powah
-[25Mar2025 00:53:49.726] [modloading-worker-0/WARN] [Advanced Peripherals/]: Successfully loaded integration for create
-[25Mar2025 00:53:49.728] [modloading-worker-0/INFO] [Advanced Peripherals/]: mekanism not loaded, skip integration loading
-[25Mar2025 00:53:49.731] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for mekanism
-[25Mar2025 00:53:49.731] [modloading-worker-0/INFO] [Advanced Peripherals/]: botania not loaded, skip integration loading
-[25Mar2025 00:53:49.733] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for botania
-[25Mar2025 00:53:49.790] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[25Mar2025 00:53:49.790] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[25Mar2025 00:53:51.146] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[25Mar2025 00:53:51.428] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Initializing Create Radar!
-[25Mar2025 00:53:51.429] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Items!
-[25Mar2025 00:53:51.432] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CBC Compat Items!
-[25Mar2025 00:53:51.461] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering blocks!
-[25Mar2025 00:53:51.782] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering block entity types!
-[25Mar2025 00:53:51.796] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CreativeTabs!
-[25Mar2025 00:53:51.797] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Lang!
-[25Mar2025 00:53:51.928] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering ContraptionType!
-[25Mar2025 00:53:52.311] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[25Mar2025 00:53:52.444] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:block_entity_instruction
-[25Mar2025 00:53:52.447] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:item_instruction
-[25Mar2025 00:53:52.882] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock::handler$zjo000$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[25Mar2025 00:53:56.044] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_data
-[25Mar2025 00:53:56.047] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_part
-[25Mar2025 00:53:56.955] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_data
-[25Mar2025 00:53:56.956] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_part
-[25Mar2025 00:53:56.957] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_request_failure
-[25Mar2025 00:53:56.958] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_send_part
-[25Mar2025 00:53:56.959] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_schem_networking_load_schematic
-[25Mar2025 00:53:56.990] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_strip_mode_query_strippable_renderer_ids
-[25Mar2025 00:53:57.015] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_request_gravity_vectors
-[25Mar2025 00:53:57.016] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_try_update_gravity_vectors
-[25Mar2025 00:53:57.026] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_request_role_data
-[25Mar2025 00:53:57.028] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_update_roles_settings
-[25Mar2025 00:53:57.032] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_remove_role
-[25Mar2025 00:53:57.033] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_add_new_role
-[25Mar2025 00:53:57.037] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_request_players_roles_data
-[25Mar2025 00:53:57.040] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_try_change_player_role
-[25Mar2025 00:53:57.042] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_requset_state
-[25Mar2025 00:53:57.043] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_send_state_update
-[25Mar2025 00:53:57.062] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_request_server_limits
-[25Mar2025 00:53:57.063] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_send_updated_server_limits
-[25Mar2025 00:53:57.168] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_primary_connection
-[25Mar2025 00:53:57.169] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_secondary_connection
-[25Mar2025 00:53:57.178] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_rope_mode_primary_connection
-[25Mar2025 00:53:57.188] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_primary_connection
-[25Mar2025 00:53:57.191] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_secondary_connection
-[25Mar2025 00:53:57.199] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_phys_rope_mode_primary_connection
-[25Mar2025 00:53:57.205] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_slider_mode_primary_connection
-[25Mar2025 00:53:57.210] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_sync_rotation_mode_primary_connection
-[25Mar2025 00:53:57.212] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_thruster_mode_primary_connection
-[25Mar2025 00:53:57.218] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_primary_connection
-[25Mar2025 00:53:57.218] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_secondary_connection
-[25Mar2025 00:53:57.223] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_primary_connection
-[25Mar2025 00:53:57.223] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_secondary_connection
-[25Mar2025 00:53:57.228] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_primary_connection
-[25Mar2025 00:53:57.230] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_secondary_connection
-[25Mar2025 00:53:57.231] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_scale_mode_primary_connection
-[25Mar2025 00:53:57.235] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_strip_mode_primary_connection
-[25Mar2025 00:53:57.244] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_ship_remover_primary_connection
-[25Mar2025 00:53:57.246] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_request_remove_last_constraint
-[25Mar2025 00:53:57.247] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_toolgun_was_reset
-[25Mar2025 00:53:57.248] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_ask_if_i_have_access
-[25Mar2025 00:53:57.250] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_physgun_state_changed
-[25Mar2025 00:54:03.129] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[25Mar2025 00:54:03.132] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
-[25Mar2025 00:54:03.135] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
-[25Mar2025 00:54:03.135] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
-[25Mar2025 00:54:03.135] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
-[25Mar2025 00:54:03.135] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
-[25Mar2025 00:54:03.135] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
-[25Mar2025 00:54:03.136] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
-[25Mar2025 00:54:03.137] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
-[25Mar2025 00:54:03.142] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
-[25Mar2025 00:54:03.154] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Display Behaviors!
-[25Mar2025 00:54:03.254] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[25Mar2025 00:54:03.657] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cccbridge] Starting version check at https://api.modrinth.com/updates/cccbridge/forge_updates.json
-[25Mar2025 00:54:04.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cccbridge] Found status: UP_TO_DATE Current: 1.6.3-forge Target: null
-[25Mar2025 00:54:04.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
-[25Mar2025 00:54:04.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 2.2.0+mc.1.20.1-forge Target: null
-[25Mar2025 00:54:04.290] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[25Mar2025 00:54:04.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[25Mar2025 00:54:04.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
-[25Mar2025 00:54:04.495] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: OUTDATED Current: 0.9.3-mc1.20.1 Target: 0.9.4-mc1.20.1
-[25Mar2025 00:54:04.495] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[25Mar2025 00:54:04.534] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[25Mar2025 00:54:04.534] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[25Mar2025 00:54:04.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[25Mar2025 00:54:04.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Starting version check at https://raw.githubusercontent.com/TeamFelnull/OtyacraftEngine/master/version_check.json
-[25Mar2025 00:54:04.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Found status: UP_TO_DATE Current: 3.7.0-alpha.2 Target: null
-[25Mar2025 00:54:04.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[25Mar2025 00:54:04.780] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.113.1 Target: 1.115.1
-[25Mar2025 00:54:04.858] [PAUCAL Contributors Loading Thread/INFO] [paucal/]: Loaded 74 contributors and 7 headpat sounds from Github
-[25Mar2025 00:54:11.567] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[25Mar2025 00:54:16.661] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Satiri/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
-[25Mar2025 00:54:16.662] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Satiri/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
-[25Mar2025 00:54:19.150] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:create_the_air_wars:blocks/heattrap
+[25Mar2025 06:06:14.171] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[25Mar2025 06:06:23.760] [modloading-worker-0/INFO] [Advanced Peripherals/]: AdvancedPeripherals says hello!
+[25Mar2025 06:06:23.764] [modloading-worker-0/INFO] [paucal/]: Hello PAUCAL! This is FORGE!
+[25Mar2025 06:06:24.033] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.6 initializing! Create version: 0.5.1h on platform: Forge
+[25Mar2025 06:06:24.088] [modloading-worker-0/INFO] [Advanced Peripherals/]: powah not loaded, skip integration loading
+[25Mar2025 06:06:24.095] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for powah
+[25Mar2025 06:06:24.095] [modloading-worker-0/WARN] [Advanced Peripherals/]: Successfully loaded integration for create
+[25Mar2025 06:06:24.102] [modloading-worker-0/INFO] [Advanced Peripherals/]: mekanism not loaded, skip integration loading
+[25Mar2025 06:06:24.103] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for mekanism
+[25Mar2025 06:06:24.103] [modloading-worker-0/INFO] [Advanced Peripherals/]: botania not loaded, skip integration loading
+[25Mar2025 06:06:24.106] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for botania
+[25Mar2025 06:06:24.162] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Mar2025 06:06:24.163] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Mar2025 06:06:25.519] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[25Mar2025 06:06:25.539] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Initializing Create Radar!
+[25Mar2025 06:06:25.544] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Items!
+[25Mar2025 06:06:25.548] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CBC Compat Items!
+[25Mar2025 06:06:25.571] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering blocks!
+[25Mar2025 06:06:25.780] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering block entity types!
+[25Mar2025 06:06:25.790] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CreativeTabs!
+[25Mar2025 06:06:25.794] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Lang!
+[25Mar2025 06:06:25.981] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering ContraptionType!
+[25Mar2025 06:06:26.216] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Mar2025 06:06:26.389] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:block_entity_instruction
+[25Mar2025 06:06:26.391] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:item_instruction
+[25Mar2025 06:06:26.881] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock::handler$zjo000$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[25Mar2025 06:06:29.390] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_data
+[25Mar2025 06:06:29.391] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_part
+[25Mar2025 06:06:29.904] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_data
+[25Mar2025 06:06:29.904] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_part
+[25Mar2025 06:06:29.905] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_request_failure
+[25Mar2025 06:06:29.905] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_send_part
+[25Mar2025 06:06:29.907] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_schem_networking_load_schematic
+[25Mar2025 06:06:29.926] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_strip_mode_query_strippable_renderer_ids
+[25Mar2025 06:06:29.940] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_request_gravity_vectors
+[25Mar2025 06:06:29.942] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_try_update_gravity_vectors
+[25Mar2025 06:06:29.946] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_request_role_data
+[25Mar2025 06:06:29.947] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_update_roles_settings
+[25Mar2025 06:06:29.948] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_remove_role
+[25Mar2025 06:06:29.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_add_new_role
+[25Mar2025 06:06:29.953] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_request_players_roles_data
+[25Mar2025 06:06:29.954] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_try_change_player_role
+[25Mar2025 06:06:29.955] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_requset_state
+[25Mar2025 06:06:29.957] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_send_state_update
+[25Mar2025 06:06:29.977] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_request_server_limits
+[25Mar2025 06:06:29.978] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_send_updated_server_limits
+[25Mar2025 06:06:30.017] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_primary_connection
+[25Mar2025 06:06:30.018] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_secondary_connection
+[25Mar2025 06:06:30.026] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_rope_mode_primary_connection
+[25Mar2025 06:06:30.035] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_primary_connection
+[25Mar2025 06:06:30.035] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_secondary_connection
+[25Mar2025 06:06:30.040] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_phys_rope_mode_primary_connection
+[25Mar2025 06:06:30.044] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_slider_mode_primary_connection
+[25Mar2025 06:06:30.047] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_sync_rotation_mode_primary_connection
+[25Mar2025 06:06:30.050] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_thruster_mode_primary_connection
+[25Mar2025 06:06:30.054] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_primary_connection
+[25Mar2025 06:06:30.054] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_secondary_connection
+[25Mar2025 06:06:30.060] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_primary_connection
+[25Mar2025 06:06:30.060] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_secondary_connection
+[25Mar2025 06:06:30.064] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_primary_connection
+[25Mar2025 06:06:30.064] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_secondary_connection
+[25Mar2025 06:06:30.066] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_scale_mode_primary_connection
+[25Mar2025 06:06:30.069] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_strip_mode_primary_connection
+[25Mar2025 06:06:30.073] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_ship_remover_primary_connection
+[25Mar2025 06:06:30.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_request_remove_last_constraint
+[25Mar2025 06:06:30.080] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_toolgun_was_reset
+[25Mar2025 06:06:30.082] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_ask_if_i_have_access
+[25Mar2025 06:06:30.084] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id valkyrien_mod:c2s_server_physgun_state_changed
+[25Mar2025 06:06:36.106] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[25Mar2025 06:06:36.112] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[25Mar2025 06:06:36.112] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[25Mar2025 06:06:36.112] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[25Mar2025 06:06:36.112] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[25Mar2025 06:06:36.113] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[25Mar2025 06:06:36.115] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[25Mar2025 06:06:36.116] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[25Mar2025 06:06:36.116] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Display Behaviors!
+[25Mar2025 06:06:36.117] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[25Mar2025 06:06:36.118] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[25Mar2025 06:06:36.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[25Mar2025 06:06:36.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cccbridge] Starting version check at https://api.modrinth.com/updates/cccbridge/forge_updates.json
+[25Mar2025 06:06:37.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cccbridge] Found status: UP_TO_DATE Current: 1.6.3-forge Target: null
+[25Mar2025 06:06:37.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
+[25Mar2025 06:06:37.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 2.2.0+mc.1.20.1-forge Target: null
+[25Mar2025 06:06:37.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Mar2025 06:06:37.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[25Mar2025 06:06:37.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[25Mar2025 06:06:37.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: OUTDATED Current: 0.9.3-mc1.20.1 Target: 0.9.4-mc1.20.1
+[25Mar2025 06:06:37.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[25Mar2025 06:06:38.039] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[25Mar2025 06:06:38.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[25Mar2025 06:06:38.111] [PAUCAL Contributors Loading Thread/INFO] [paucal/]: Loaded 74 contributors and 7 headpat sounds from Github
+[25Mar2025 06:06:38.200] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[25Mar2025 06:06:38.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Starting version check at https://raw.githubusercontent.com/TeamFelnull/OtyacraftEngine/master/version_check.json
+[25Mar2025 06:06:38.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Found status: UP_TO_DATE Current: 3.7.0-alpha.2 Target: null
+[25Mar2025 06:06:38.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[25Mar2025 06:06:38.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.113.1 Target: 1.115.1
+[25Mar2025 06:06:43.648] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Mar2025 06:06:47.770] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Satiri/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[25Mar2025 06:06:47.770] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Satiri/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[25Mar2025 06:06:49.965] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:create_the_air_wars:blocks/heattrap
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'create_the_air_wars:heattrap'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -213,77 +213,80 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[25Mar2025 00:54:19.512] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board as it's serializer returned null
-[25Mar2025 00:54:19.533] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_steps as it's serializer returned null
-[25Mar2025 00:54:19.543] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_catwalk as it's serializer returned null
-[25Mar2025 00:54:19.553] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence as it's serializer returned null
-[25Mar2025 00:54:19.569] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam as it's serializer returned null
-[25Mar2025 00:54:19.586] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs as it's serializer returned null
-[25Mar2025 00:54:19.600] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_from_conversion as it's serializer returned null
-[25Mar2025 00:54:19.610] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall as it's serializer returned null
-[25Mar2025 00:54:19.620] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step as it's serializer returned null
-[25Mar2025 00:54:19.632] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advancedperipherals:colony_integrator as it's serializer returned null
-[25Mar2025 00:54:19.633] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_box as it's serializer returned null
-[25Mar2025 00:54:19.634] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab as it's serializer returned null
-[25Mar2025 00:54:19.646] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advancedperipherals:rs_bridge as it's serializer returned null
-[25Mar2025 00:54:19.647] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_beams as it's serializer returned null
-[25Mar2025 00:54:19.665] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_panels as it's serializer returned null
-[25Mar2025 00:54:19.685] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate as it's serializer returned null
-[25Mar2025 00:54:19.693] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_from_slabs as it's serializer returned null
-[25Mar2025 00:54:19.709] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block as it's serializer returned null
-[25Mar2025 00:54:19.709] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advancedperipherals:me_bridge as it's serializer returned null
-[25Mar2025 00:54:19.711] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 36 recipes
-[25Mar2025 00:54:19.828] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cccbridge:place_animatronic: Failed to parse 'location' field
-[25Mar2025 00:54:19.853] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cccbridge:place_redrouter: Failed to parse 'location' field
-[25Mar2025 00:54:19.919] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3723 advancements
-[25Mar2025 00:54:19.937] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 21 turtle upgrades
-[25Mar2025 00:54:19.937] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 8 pocket computer upgrades
-[25Mar2025 00:54:19.975] [main/WARN] [rbasamoyai.createbigcannons.CreateBigCannons/]: Missing custom armor properties entry for block copycats:copycat_iron_door
-[25Mar2025 00:54:19.976] [main/WARN] [rbasamoyai.createbigcannons.CreateBigCannons/]: Missing custom armor properties entry for block copycats:copycat_door
-[25Mar2025 00:54:25.491] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
-[25Mar2025 00:54:25.668] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[25Mar2025 00:54:25.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[25Mar2025 00:54:25.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[25Mar2025 00:54:25.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[25Mar2025 00:54:25.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[25Mar2025 00:54:25.883] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[25Mar2025 00:54:25.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[25Mar2025 00:54:25.973] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[25Mar2025 00:54:25.974] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[25Mar2025 00:54:25.974] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[25Mar2025 00:54:26.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[25Mar2025 00:54:26.909] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
-[25Mar2025 00:54:28.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[25Mar2025 00:54:30.262] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Mar2025 00:54:30.264] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Mar2025 00:54:30.265] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Mar2025 00:54:30.266] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Mar2025 00:54:30.266] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Mar2025 00:54:30.695] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[25Mar2025 00:54:31.195] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[25Mar2025 00:54:32.035] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[25Mar2025 00:54:32.665] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[25Mar2025 00:54:32.666] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[25Mar2025 00:54:32.695] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[25Mar2025 00:54:33.038] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[25Mar2025 00:54:33.267] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[25Mar2025 00:54:33.587] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5392 ms
-[25Mar2025 00:54:33.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.590s)! For help, type "help"
-[25Mar2025 00:54:33.671] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[25Mar2025 00:54:34.038] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[25Mar2025 00:54:34.128] [Server thread/WARN] [valkyrien_mod/]: Deserialized 0 constraints
-[25Mar2025 00:55:01.916] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YanHJ[/127.168.202.157:48511] logged in with entity id 16 at (6.5, -60.0, 6.5)
-[25Mar2025 00:55:01.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YanHJ joined the game
-[25Mar2025 00:56:05.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made YanHJ a server operator
-[25Mar2025 00:56:20.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YanHJ: Set own game mode to Creative Mode]
-[25Mar2025 00:56:35.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YanHJ: Set the weather to clear]
-[25Mar2025 00:57:00.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YanHJ: The difficulty has been set to Peaceful]
-[25Mar2025 01:00:50.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YanHJ: Set the time to 1000]
-[25Mar2025 01:14:11.733] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YanHJ lost connection: Disconnected
-[25Mar2025 01:14:11.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YanHJ left the game
-[25Mar2025 01:15:20.453] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YanHJ[/127.168.202.157:53107] logged in with entity id 203 at (12.14710758626461, -59.000000207384495, -7.585893487557769)
-[25Mar2025 01:15:20.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YanHJ joined the game
-[25Mar2025 01:18:15.483] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YanHJ lost connection: Disconnected
-[25Mar2025 01:18:15.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YanHJ left the game
-[25Mar2025 01:22:36.093] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YanHJ[/127.168.202.157:49273] logged in with entity id 204 at (11.761147804558277, -59.00000025913825, -7.075436964631081)
-[25Mar2025 01:22:36.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YanHJ joined the game
+[25Mar2025 06:06:50.197] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board as it's serializer returned null
+[25Mar2025 06:06:50.211] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_steps as it's serializer returned null
+[25Mar2025 06:06:50.221] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_catwalk as it's serializer returned null
+[25Mar2025 06:06:50.226] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence as it's serializer returned null
+[25Mar2025 06:06:50.239] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam as it's serializer returned null
+[25Mar2025 06:06:50.242] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs as it's serializer returned null
+[25Mar2025 06:06:50.251] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_from_conversion as it's serializer returned null
+[25Mar2025 06:06:50.257] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall as it's serializer returned null
+[25Mar2025 06:06:50.266] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step as it's serializer returned null
+[25Mar2025 06:06:50.277] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advancedperipherals:colony_integrator as it's serializer returned null
+[25Mar2025 06:06:50.279] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_box as it's serializer returned null
+[25Mar2025 06:06:50.280] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab as it's serializer returned null
+[25Mar2025 06:06:50.286] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advancedperipherals:rs_bridge as it's serializer returned null
+[25Mar2025 06:06:50.287] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_beams as it's serializer returned null
+[25Mar2025 06:06:50.299] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_from_panels as it's serializer returned null
+[25Mar2025 06:06:50.313] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate as it's serializer returned null
+[25Mar2025 06:06:50.317] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_from_slabs as it's serializer returned null
+[25Mar2025 06:06:50.325] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block as it's serializer returned null
+[25Mar2025 06:06:50.325] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advancedperipherals:me_bridge as it's serializer returned null
+[25Mar2025 06:06:50.327] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 36 recipes
+[25Mar2025 06:06:50.402] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cccbridge:place_animatronic: Failed to parse 'location' field
+[25Mar2025 06:06:50.422] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cccbridge:place_redrouter: Failed to parse 'location' field
+[25Mar2025 06:06:50.456] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3723 advancements
+[25Mar2025 06:06:50.464] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 21 turtle upgrades
+[25Mar2025 06:06:50.465] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 8 pocket computer upgrades
+[25Mar2025 06:06:50.482] [main/WARN] [rbasamoyai.createbigcannons.CreateBigCannons/]: Missing custom armor properties entry for block copycats:copycat_iron_door
+[25Mar2025 06:06:50.482] [main/WARN] [rbasamoyai.createbigcannons.CreateBigCannons/]: Missing custom armor properties entry for block copycats:copycat_door
+[25Mar2025 06:06:54.170] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
+[25Mar2025 06:06:54.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Mar2025 06:06:54.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Mar2025 06:06:54.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Mar2025 06:06:54.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Mar2025 06:06:54.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Mar2025 06:06:54.750] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Mar2025 06:06:54.842] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Mar2025 06:06:54.843] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Mar2025 06:06:54.843] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Mar2025 06:06:54.844] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Mar2025 06:06:54.954] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Mar2025 06:06:55.601] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
+[25Mar2025 06:06:56.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Mar2025 06:06:59.207] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Mar2025 06:06:59.284] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Mar2025 06:06:59.288] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Mar2025 06:06:59.867] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:06:59.869] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:06:59.870] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:06:59.870] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:06:59.871] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:06:59.872] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:06:59.873] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:06:59.991] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Mar2025 06:07:00.491] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[25Mar2025 06:07:00.607] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Mar2025 06:07:00.689] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Mar2025 06:07:00.783] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[25Mar2025 06:07:00.820] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Mar2025 06:07:00.917] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[25Mar2025 06:07:00.990] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[25Mar2025 06:07:01.056] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4566 ms
+[25Mar2025 06:07:01.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.194s)! For help, type "help"
+[25Mar2025 06:07:01.124] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Mar2025 06:07:01.185] [Server thread/WARN] [valkyrien_mod/]: Deserialized 0 constraints
+[25Mar2025 06:07:37.942] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@11dd1469[id=<null>,name=Yankjo,properties={},legacy=false] (/127.168.202.157:33209): Took too long to log in
+[25Mar2025 06:07:37.944] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@11dd1469[id=<null>,name=Yankjo,properties={},legacy=false] (/127.168.202.157:33209) lost connection: Took too long to log in
+[25Mar2025 06:07:37.987] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[25Mar2025 06:08:30.298] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:38205] logged in with entity id 16 at (9.054132547229528, -57.09220304139318, -9.299967106431723)
+[25Mar2025 06:08:30.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[25Mar2025 06:08:30.524] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@3b24d3ee[id=90916320-6cbe-33f2-bc79-96043d988f51,name=Yankjo,properties={},legacy=false] (/127.168.202.157:38205): Took too long to log in
+[25Mar2025 06:08:30.780] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yankjo lost connection: Took too long to log in
+[25Mar2025 06:08:30.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo left the game
+[25Mar2025 06:08:30.810] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[25Mar2025 06:09:48.608] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Yankjo[/127.168.202.157:35851] logged in with entity id 17 at (9.054132547229528, -57.09220304139318, -9.299967106431723)
+[25Mar2025 06:09:48.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Yankjo joined the game
+[25Mar2025 06:11:27.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: The difficulty has been set to Peaceful]
+[25Mar2025 06:11:34.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Yankjo: Set the time to 1000]
+[25Mar2025 06:15:31.499] [Server thread/ERROR] [VS2 Get Entities Mixin/]: java.lang.Exception: Collision box is too big! AABB[-2.8657665625E7, -59.499998679524055, 8.195648096501827] -> [4.834929026663303, 128.17499999701977, 1.2290048625E7] returning empty list! this might break things
