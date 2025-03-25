@@ -1,9 +1,15 @@
 {
-  "computercraft:recipes/redstone/pocket_advanced/computercraft/wireless_modem_advanced": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_items": "2025-03-25 00:59:24 +0000"
+      "unlock_right_away": "2025-03-25 00:55:02 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-03-25 00:55:03 +0000"
+    },
+    "done": false
   },
   "storagedrawers:recipes/storagedrawers/one_stack_upgrade": {
     "criteria": {
@@ -41,18 +47,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-03-25 00:55:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-03-25 01:01:20 +0000"
-    },
-    "done": true
-  },
   "storagedrawers:recipes/storagedrawers/illumination_upgrade": {
     "criteria": {
       "has_template": "2025-03-25 00:57:02 +0000"
@@ -62,12 +56,6 @@
   "storagedrawers:recipes/storagedrawers/remote_upgrade": {
     "criteria": {
       "has_template": "2025-03-25 00:57:02 +0000"
-    },
-    "done": true
-  },
-  "computercraft:recipes/redstone/turtle_advanced": {
-    "criteria": {
-      "has_computer": "2025-03-25 00:57:18 +0000"
     },
     "done": true
   },
@@ -119,12 +107,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
-    "criteria": {
-      "has_cyan_terracotta": "2025-03-25 00:57:48 +0000"
-    },
-    "done": true
-  },
   "vs_eureka:recipes/balloon_color": {
     "criteria": {
       "has_red_balloon": "2025-03-25 00:57:02 +0000",
@@ -167,12 +149,6 @@
   "storagedrawers:recipes/storagedrawers/cherry_trim": {
     "criteria": {
       "has_planks": "2025-03-25 00:57:02 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/sail_framefrom_conversion": {
-    "criteria": {
-      "has_item": "2025-03-25 00:59:17 +0000"
     },
     "done": true
   },
@@ -284,12 +260,6 @@
     },
     "done": true
   },
-  "computercraft:recipes/redstone/turtle_normal": {
-    "criteria": {
-      "has_computer": "2025-03-25 00:57:18 +0000"
-    },
-    "done": true
-  },
   "storagedrawers:recipes/storagedrawers/bamboo_trim": {
     "criteria": {
       "has_planks": "2025-03-25 00:57:02 +0000"
@@ -374,15 +344,45 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2025-03-25 00:55:03 +0000"
-    },
-    "done": false
-  },
   "storagedrawers:recipes/storagedrawers/balance_fill_upgrade": {
     "criteria": {
       "has_template": "2025-03-25 00:57:02 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced": {
+    "criteria": {
+      "has_computer": "2025-03-25 00:57:18 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal": {
+    "criteria": {
+      "has_computer": "2025-03-25 00:57:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2025-03-25 00:57:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sail_framefrom_conversion": {
+    "criteria": {
+      "has_item": "2025-03-25 00:59:17 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_advanced/computercraft/wireless_modem_advanced": {
+    "criteria": {
+      "has_items": "2025-03-25 00:59:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-25 01:01:20 +0000"
     },
     "done": true
   },
